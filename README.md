@@ -11,4 +11,7 @@ Aprendizado da linguagem de programação C
 - Condições
 - Laços
 - Funções
+- Ponteiros
 - Alocação Dinâmica
+- Estruturas (structs)
+- Interfaces
