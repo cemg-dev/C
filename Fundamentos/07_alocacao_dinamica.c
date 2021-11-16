@@ -8,7 +8,7 @@ int* alocar_vetor(int* vetor, int tamanho) {
 
 int* desalocar_vetor(int* vetor) {
 	free(vetor);
-	vetor = NULL;
+	return NULL;
 }
 
 
@@ -25,7 +25,7 @@ int** desalocar_matriz(int** matriz, int linhas) {
 		free(matriz[i]);
 	}
 	free(matriz);
-	matriz = NULL;
+	return NULL;
 }
 
 void main() {
