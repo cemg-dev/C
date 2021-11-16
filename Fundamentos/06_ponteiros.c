@@ -19,7 +19,7 @@ void main() {
     printf("%f.2f\n", *p2);
 
     char str[] = {'d','a','d','o'};
-    char* p3 = str;      // Não precisamos passar &, pois uma string já é um ponteiro para um conjunto de caracteres
+    char* p3 = str;      // Não precisamos passar &, pois em C, uma string já é um ponteiro para um conjunto de caracteres
     printf("%s\n", p3);
 
     int *p4 = &n;
